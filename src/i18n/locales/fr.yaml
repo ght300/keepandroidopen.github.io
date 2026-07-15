@@ -35,7 +35,7 @@
 title: "Garder Android ouvert"
 # [en] description: "Your phone is about to stop being yours. In September 2026, Google will block every Android app whose developer hasn't registered with them."
 description: >-
-  Votre téléphone ne sera bientôt plus le vôtre. En septembre 2026, Google bloquera toutes les applis Android dont les développeurs ne se sont pas enregistré selon leurs conditions.
+  Votre téléphone ne sera bientôt plus le vôtre. En 2027, Google bloquera toutes les applis Android dont les développeurs ne se sont pas enregistré selon leurs conditions.
 # [en] hero_lede: "Your phone is about to stop being yours."
 hero_lede: "Bientôt votre téléphone ne vous appartiendra plus."
 # [en] hero_countdown_label: "days until lockdown"
@@ -115,10 +115,10 @@ footer_translations: "Traductions"
 footer_help_translate: "Aider à traduire"
 # [en] hero_sub: "Starting September 2026, a silent update, nonconsensually pushed by Google, will **block every Android app** whose developer hasn't registered with Google, signed their contract, paid up, and handed over government ID."
 hero_sub: >-
-  À partir de septembre 2026, une mise à jour silencieuse et imposée sans consentement par Google **bloquera toutes les applications Android** dont le développeur ne s'est pas enregistré auprès de Google, n'a pas signé son contrat, n'a pas payé et n'a pas fourni de pièce d'identité officielle.
+  À partir de 2027[*](FAQ_URL), une mise à jour silencieuse et imposée sans consentement par Google **bloquera toutes les applications Android** dont le développeur ne s'est pas enregistré auprès de Google, n'a pas signé son contrat, n'a pas payé et n'a pas fourni de pièce d'identité officielle.
 # [en] what_intro: "In August 2025, Google [announced](https://developer.android.com/developer-verification) a new requirement: starting September 2026, **every Android app developer must register centrally with Google** before their software can be installed on any device. Not just Play Store apps: all apps. This includes apps shared between friends, distributed through [F-Droid](https://f-droid.org), built by hobbyists for personal use. Independent developers, church and community groups, and hobbyists alike will all be frozen out of being able to develop and distribute their software."
 what_intro: >-
-  En août 2025, Google [a annoncé](https://developer.android.com/developer-verification) une nouvelle exigence: à partir de septembre 2026, **tout développeur d'applications Android devra s'inscrire auprès de Google** avant que son logiciel ne puisse être installé sur un appareil. Pas uniquement les applications du Play Store : toutes les applications. Cela inclut les applications partagées entre amis, distribuées via [F-Droid](https://f-droid.org), ou encore celles créées par des amateurs pour un usage personnel. Les développeurs indépendants, les groupes religieux et les associations, ainsi que les amateurs, seront toutes et tous empêchés de développer et de distribuer leurs logiciels.
+  En août 2025, Google [a annoncé](https://developer.android.com/developer-verification) une nouvelle exigence: à partir de 2027, **tout développeur d'applications Android devra s'inscrire auprès de Google** avant que son logiciel ne puisse être installé sur un appareil. Pas uniquement les applications du Play Store : toutes les applications. Cela inclut les applications partagées entre amis, distribuées via [F-Droid](https://f-droid.org), ou encore celles créées par des amateurs pour un usage personnel. Les développeurs indépendants, les groupes religieux et les associations, ainsi que les amateurs, seront toutes et tous empêchés de développer et de distribuer leurs logiciels.
 # [en] what_pullquote: "If a developer does not comply, their apps get silently blocked on every Android device worldwide."
 what_pullquote: >-
   Si un développeur ne se plie pas à cette exigence, ses applications seront silencieusement bloquées sur tous les appareils Android de part le monde.
@@ -130,7 +130,7 @@ impact_you_p2: >-
   Google modifie désormais cet accord, rétroactivement, sur les appareils que vous possédez déjà. Après la mise à jour, vous ne pourrez utiliser que les applications préalablement approuvées par Google. Sur votre téléphone : *votre appareil*, que *vous* avez acheté.
 # [en] impact_dev_p1: "A teenager's first app, a volunteer's privacy tool, or a company's confidential internal beta. It doesn't matter. After September 2026, none of these can be installed without Google's blessing."
 impact_dev_p1: >-
-  Qu'il s'agisse de la première application d'un adolescent, un outil de protection de la vie privée d'un bénévole ou version bêta interne confidentielle d'une entreprise : peu importe. Après septembre 2026, aucune de ces applications ne pourra être installée sans l'autorisation de Google.
+  Qu'il s'agisse de la première application d'un adolescent, un outil de protection de la vie privée d'un bénévole ou version bêta interne confidentielle d'une entreprise : peu importe. En 2027, aucune de ces applications ne pourra être installée sans l'autorisation de Google.
 # [en] impact_dev_p2: "[F-Droid](https://f-droid.org), home to thousands of free and open-source Android apps, has called this an [\"existential\" threat](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow calls it [\"Darth Android\"](https://pluralistic.net/2025/09/01/fulu/)."
 impact_dev_p2: >-
   [F-Droid](https://f-droid.org), qui héberge des milliers d'applications Android libres et open source, a qualifié cette [menace d'« existentielle »](https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html). Cory Doctorow l'appelle ["Darth Android"](https://pluralistic.net/2025/09/01/fulu/).
@@ -386,3 +386,11 @@ spread_label_facebook: "Facebook"
 # Footer
 
 # Shared site strings (also used by CTA/footer on other pages)
+
+# FAQ page
+footer_faq: "FAQ"
+faq_title: "Foire aux questions"
+faq_description: "Foire aux questions sur le programme de vérification des développeurs Android de Google et le verrouillage des applications à venir."
+faq_intro: "Réponses aux questions fréquentes sur le programme de vérification des développeurs Android de Google et le verrouillage des applications. Nous continuerons d'enrichir cette page à mesure que la situation évolue."
+faq_q_datechange: "Pourquoi la date du verrouillage est-elle passée de septembre 2026 à janvier 2027 ?"
+faq_a_datechange: "Le verrouillage devait initialement débuter en septembre 2026 dans quatre premiers pays. Depuis, il a été mis à jour afin de limiter le déploiement initial à une liste précise de boutiques d'applications Android, qui n'inclut pas F-Droid. Cela signifie que l'activation de septembre n'affectera PAS F-Droid lui-même ni aucune application installée via F-Droid. La date à laquelle le verrouillage commencera à toucher les utilisateurs de F-Droid n'est pas encore publiée. Nous tiendrons cette page à jour au fur et à mesure des nouveaux détails de calendrier qui nous seront communiqués. Pour en savoir plus, consultez la [FAQ de Google sur la vérification des développeurs](https://developer.android.com/developer-verification/guides/faq#general)."
